@@ -1,0 +1,10 @@
+Comment,Designator,Footprint,LCSC Part #
+"Module:output/0.1","M6","output",""
+"Module:power12/0.1","M8","power12",""
+"Module:ign8/0.1","M7","ign8",""
+"Module:knock/0.1","M5","knock",""
+"Module:input/0.1","M4","input",""
+"Module:mcu/0.1","M3","mcu",""
+"368255-2","P1","368255-2",""
+"Module:can/0.1","M1","can",""
+"Module:power5/0.1","M2","power5",""
