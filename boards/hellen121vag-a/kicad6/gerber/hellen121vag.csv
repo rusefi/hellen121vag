@@ -1,10 +1,11 @@
-"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"M6";"output";1;"Module-output-0.1";;;
-2;"M8";"power12";1;"Module-power12-0.1";;;
-3;"M7";"ign8";1;"Module-ign8-0.1";;;
-4;"M5";"knock";1;"Module-knock-0.1";;;
-5;"M4";"input";1;"Module-input-0.1";;;
-6;"M3";"mcu";1;"Module-mcu-0.1";;;
-7;"P1";"368255-2";1;"368255-2";;;
-8;"M1";"can";1;"Module-can-0.1";;;
-9;"M2";"power5";1;"Module-power5-0.1";;;
+"Comment","Designator","Footprint","LCSC Part #"
+"USB_B_Mini","J1","hellen-one-common:USB-MINI-B-VERTICAL","C13453"
+"Module-can-0.1","M1","hellen-one-can-0.1:can",""
+"Module-power5-0.1","M2","hellen-one-power5-0.1:power5",""
+"Module-mcu-0.1","M3","hellen-one-mcu-0.1:mcu",""
+"Module-input-0.1","M4","hellen-one-input-0.1:input",""
+"Module-knock-0.1","M5","hellen-one-knock-0.1:knock",""
+"Module-output-0.1","M6","hellen-one-output-0.1:output",""
+"Module-ign8-0.1","M7","hellen-one-ign8-0.1:ign8",""
+"Module-power12-0.1","M8","hellen-one-power12-0.1:power12",""
+"368255-2","P1","hellen121vag:368255-2",""
