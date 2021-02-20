@@ -104,15 +104,15 @@
         "max_error": 0.005,
         "min_clearance": 0.19999999999999998,
         "min_copper_edge_clearance": 0.1905,
-        "min_hole_clearance": 0.0,
+        "min_hole_clearance": 0.09999999999999999,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.508,
         "min_microvia_drill": 0.127,
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.29999899999999996,
         "min_track_width": 0.19999999999999998,
-        "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.6,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.599999,
         "solder_mask_clearance": 0.06999999999999999,
         "solder_mask_min_width": 0.0,
         "solder_paste_clearance": 0.0,
@@ -133,7 +133,7 @@
         }
       ],
       "zones_allow_external_fillets": false,
-      "zones_use_no_outline": true
+      "zones_use_no_outline": false
     },
     "layer_presets": []
   },
@@ -357,7 +357,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.254,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -368,13 +368,13 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
-        "via_diameter": 0.889,
-        "via_drill": 0.635,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6.0
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.254,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -382,35 +382,27 @@
         "microvia_diameter": 0.508,
         "microvia_drill": 0.127,
         "name": "1.5A",
-        "nets": [],
+        "nets": [
+          "/OUT_IDLE",
+          "/OUT_INJ1",
+          "/OUT_INJ2",
+          "/OUT_INJ3",
+          "/OUT_INJ4",
+          "/OUT_INJ5",
+          "/OUT_INJ6",
+          "/OUT_INJ7",
+          "/OUT_INJ8"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.508,
-        "via_diameter": 0.889,
-        "via_drill": 0.635,
+        "track_width": 0.6,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6.0
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.254,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.508,
-        "microvia_drill": 0.127,
-        "name": "10A",
-        "nets": [],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 6.096,
-        "via_diameter": 0.889,
-        "via_drill": 0.635,
-        "wire_width": 6.0
-      },
-      {
-        "bus_width": 12.0,
-        "clearance": 0.254,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -418,30 +410,41 @@
         "microvia_diameter": 0.508,
         "microvia_drill": 0.127,
         "name": "1A",
-        "nets": [],
+        "nets": [
+          "/OUT_FUEL_CONSUM",
+          "/OUT_VVT1_1",
+          "/OUT_VVT1_2",
+          "/OUT_VVT2_B1",
+          "/OUT_VVT2_B2",
+          "/OUT_WASTEGATE"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
-        "via_diameter": 0.889,
-        "via_drill": 0.635,
+        "track_width": 0.4,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6.0
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.254,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.508,
         "microvia_drill": 0.127,
-        "name": "3.75A",
-        "nets": [],
+        "name": "5A",
+        "nets": [
+          "/OUT_COIL_A1",
+          "/OUT_COIL_A2",
+          "V12_RAW"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.778,
-        "via_diameter": 0.889,
-        "via_drill": 0.635,
+        "track_width": 2.0,
+        "via_diameter": 1.0,
+        "via_drill": 0.5,
         "wire_width": 6.0
       }
     ],
@@ -492,7 +495,7 @@
   },
   "sheets": [
     [
-      "a47d7020-ba4d-4d32-a75c-5ce71983f33d",
+      "7b377399-2486-4495-a597-01434f97b847",
       ""
     ]
   ],
