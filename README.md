@@ -4,6 +4,7 @@ Requires pretty fresh nightly KiCad 5.99
 
 Part of https://github.com/andreika-git/hellen-one family
 
+ME 7.5
 
 https://github.com/rusefi/rusefi/wiki/VAG-B5
 
