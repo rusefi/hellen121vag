@@ -12,4 +12,5 @@
   (lib (name "hellen-one-knock-0.1")(type "KiCad")(uri "${KIPRJMOD}/../../../../hellen-one/modules/knock/0.1")(options "")(descr "Hellen-One Knock Pre-amplifier Module"))
   (lib (name "hellen-one-stlink-0.1")(type "KiCad")(uri "${KIPRJMOD}/../../../../hellen-one/modules/stlink/0.1")(options "")(descr "Hellen-One ST/Link Module"))
   (lib (name "hellen-one-common")(type "KiCad")(uri "${KIPRJMOD}/../../../../hellen-one/kicad/footprints")(options "")(descr "Hellen-One common library"))
+  (lib (name "hellen-one-wbo-0.1")(type "KiCad")(uri "${KIPRJMOD}/../../../../hellen-one/modules/wbo/0.1")(options "")(descr "Hellen-One WBO Module"))
 )
