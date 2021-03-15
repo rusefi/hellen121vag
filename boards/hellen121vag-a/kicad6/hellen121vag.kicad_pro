@@ -452,6 +452,27 @@
         "via_diameter": 1.0,
         "via_drill": 0.5,
         "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.3,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.508,
+        "microvia_drill": 0.127,
+        "name": "Crank",
+        "nets": [
+          "/IN_CRANK+",
+          "/IN_CRANK-"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6.0
       }
     ],
     "meta": {
@@ -501,7 +522,7 @@
   },
   "sheets": [
     [
-      "b1d909f2-dc4a-4736-a4c7-2ce7fa65aafe",
+      "b6f9f82a-ca07-4023-b153-1bef0621a16e",
       ""
     ]
   ],
