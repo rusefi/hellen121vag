@@ -1,0 +1,11 @@
+# remove the jumper connection from VCC_PP1 to +5V: we need +12v power supply for push-pull outputs.
+R309,
+
+# remove +5V pull-ups from SPI1, because we use it with +3.3v accelerometer
+R103,
+R105,
+
+# JLC stock adjustments
+U103,"AP2331TDSA-7","SOT-23","C183303"
+U480,"AP2331TDSA-7","SOT-23","C183303"
+U600,"LMV324IPWR","TSSOP14","C398929"
