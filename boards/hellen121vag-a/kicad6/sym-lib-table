@@ -14,4 +14,5 @@
   (lib (name "hellen-one-wbo-0.1")(type "KiCad")(uri "${KIPRJMOD}/../../../../hellen-one/modules/wbo/0.1/wbo.kicad_sym")(options "")(descr "Hellen-One WBO Module"))
   (lib (name "hellen-one-vr-0.1")(type "KiCad")(uri "${KIPRJMOD}/../../../../hellen-one/modules/vr/0.1/vr.kicad_sym")(options "")(descr "Hellen-One VR Module"))
   (lib (name "368255-2")(type "KiCad")(uri "${KIPRJMOD}/footprints/368255-2.kicad_sym")(options "")(descr ""))
+  (lib (name "hellen-one-dinput4-0.1")(type "KiCad")(uri "${KIPRJMOD}/../../../../hellen-one/modules/dinput4/0.1/dinput4.kicad_sym")(options "")(descr "Hellen-One Digital Inputs Module"))
 )
