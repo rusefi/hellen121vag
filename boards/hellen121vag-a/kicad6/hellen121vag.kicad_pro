@@ -120,6 +120,7 @@
         0.254,
         0.4,
         0.5,
+        0.8,
         1.0,
         2.0,
         3.0
@@ -437,11 +438,7 @@
         "microvia_diameter": 0.508,
         "microvia_drill": 0.127,
         "name": "5A",
-        "nets": [
-          "/OUT_COIL_A1",
-          "/OUT_COIL_A2",
-          "V12_RAW"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.0,
