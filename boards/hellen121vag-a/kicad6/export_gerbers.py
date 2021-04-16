@@ -1,3 +1,7 @@
+#
+# https://electronics.stackexchange.com/questions/390135/command-line-interface-for-kicad
+#
+
 # Load board and initialize plot controller
 board = pcbnew.LoadBoard("hellen121vag.kicad_pcb")
 pc = pcbnew.PLOT_CONTROLLER(board)
