@@ -56,6 +56,9 @@
         }
       ],
       "drc_exclusions": [
+        "clearance|100500000|5625000|cca1024a-e6db-46a1-8d53-bab69ea4534c|9e4c7d98-bf64-42ab-8e29-51eab27ad925",
+        "clearance|100850000|4175000|c34f9e14-af55-4032-9c74-36fe1099ce17|c7d076c7-727f-4334-84ba-089652a69888",
+        "clearance|99700000|4125000|68c89128-1248-40e8-9966-bc2b81bd987e|a908edf1-818a-46e3-a3de-8269fe190a29",
         "copper_edge_clearance|124681527|7985375|82848b4a-c237-4f68-b773-5c0f1c9ba57a|df21b79c-d72d-40f1-9aa2-64d6cf1fc766",
         "copper_edge_clearance|125100000|6550000|29c551f5-2af4-4908-bde6-7596b041e227|df21b79c-d72d-40f1-9aa2-64d6cf1fc766",
         "copper_edge_clearance|125100000|6550000|3852900d-ade1-4984-9688-c3f0172064ec|df21b79c-d72d-40f1-9aa2-64d6cf1fc766",
@@ -395,7 +398,6 @@
         "microvia_drill": 0.127,
         "name": "1.5A",
         "nets": [
-          "/OUT_IDLE",
           "/OUT_INJ1",
           "/OUT_INJ2",
           "/OUT_INJ3",
@@ -427,8 +429,7 @@
           "/OUT_VVT1_1",
           "/OUT_VVT1_2",
           "/OUT_VVT2_B1",
-          "/OUT_VVT2_B2",
-          "/OUT_WASTEGATE"
+          "/OUT_VVT2_B2"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
