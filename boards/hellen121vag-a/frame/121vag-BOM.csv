@@ -42,7 +42,7 @@ Comment,Designator,Footprint,LCSC Part #
 "Conn_01x04","J7","PinHeader_1x04_P2.54mm_Vertical",""
 "Conn_01x06","J8","PinHeader_1x06_P2.54mm_Vertical",""
 "Conn_01x04","J9","PinHeader_1x04_P2.54mm_Vertical",""
-"AudioJack3_SwitchTR","J10","Jack_3.5mm_PJ-3250-5A","C165947"
+"AudioJack_THR","J10","Jack_3.5mm_PJ-3250-5A","C165947"
 "Module:can/0.1","M1","can",""
 "Module:power5/0.2","M2","power5",""
 "Module:mcu/0.1","M3","mcu",""

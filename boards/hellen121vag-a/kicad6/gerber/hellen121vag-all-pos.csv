@@ -37,7 +37,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "J7","Conn_01x04","PinHeader_1x04_P2.54mm_Vertical",74.800000,99.500000,-90.000000,top
 "J8","Conn_01x06","PinHeader_1x06_P2.54mm_Vertical",13.200000,53.550000,180.000000,top
 "J9","Conn_01x04","PinHeader_1x04_P2.54mm_Vertical",63.120000,99.500000,-90.000000,top
-"J10","AudioJack3_SwitchTR","Jack_3.5mm_PJ-3250-5A",98.700000,104.200000,-90.000000,top
+"J10","AudioJack_THR","Jack_3.5mm_PJ-3250-5A",98.700000,104.200000,-90.000000,top
 "M1","Module-can-0.1","can",39.537502,97.256663,0.000000,top
 "M2","Module-power5-0.2","power5",88.087500,91.650000,0.000000,top
 "M3","Module-mcu-0.1","mcu",39.212499,58.971377,0.000000,top

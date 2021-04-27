@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Work\rusefi\github\hellen121vag\boards\hellen121vag-a\kicad6\hellen121vag.kicad_sch</source>
-    <date>27.04.2021 20:33:41</date>
+    <date>27.04.2021 23:56:43</date>
     <tool>Eeschema (5.99.0-10192-g8d0191151d)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -541,18 +541,17 @@
       <tstamps>e92ac671-56c1-4930-8ca6-e1ad8910b786</tstamps>
     </comp>
     <comp ref="J10">
-      <value>AudioJack3_SwitchTR</value>
+      <value>AudioJack_THR</value>
       <footprint>hellen-one-common:Jack_3.5mm_PJ-3250-5A</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C165947</field>
       </fields>
-      <libsource lib="Connector" part="AudioJack3_SwitchTR" description="Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"/>
+      <libsource lib="hellen-one-common" part="AudioJack_THR" description="Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"/>
       <property name="LCSC" value="C165947"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen121vag.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>b5bc3f6b-1e42-4f85-9372-76615bad718a</tstamps>
+      <tstamps>c789e2f8-9301-41fb-855b-a1db7b0f452e</tstamps>
     </comp>
     <comp ref="M1">
       <value>Module-can-0.1</value>
@@ -958,7 +957,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen121vag.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e9be16df-e370-477a-a76d-d8c27f99fa81</tstamps>
+      <tstamps>bfe52d06-cfc4-4038-804c-1c8cf0566063</tstamps>
     </comp>
     <comp ref="U2">
       <value>LPS25HB</value>
@@ -1497,25 +1496,6 @@
         <pin num="8" name="V+" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="AudioJack3_SwitchTR">
-      <description>Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Jack*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">AudioJack3_SwitchTR</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="R" name="~" type="passive"/>
-        <pin num="RN" name="~" type="passive"/>
-        <pin num="S" name="~" type="passive"/>
-        <pin num="T" name="~" type="passive"/>
-        <pin num="TN" name="~" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Connector_Generic" part="Conn_01x01">
       <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
@@ -1635,6 +1615,25 @@
       <pins>
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hellen-one-common" part="AudioJack_THR">
+      <description>Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)</description>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack_THR</field>
+        <field name="Footprint">hellen-one-common:Jack_3.5mm_PJ-3250-5A</field>
+        <field name="LCSC">C165947</field>
+      </fields>
+      <pins>
+        <pin num="R" name="~" type="passive"/>
+        <pin num="RN" name="~" type="passive"/>
+        <pin num="S" name="~" type="passive"/>
+        <pin num="T" name="~" type="passive"/>
+        <pin num="TN" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="hellen-one-common" part="Button_SPST">
@@ -2261,9 +2260,6 @@
     </library>
     <library logical="Amplifier_Operational">
       <uri>C:/Program Files/KiCad/5.99/share/kicad/library/Amplifier_Operational.kicad_sym</uri>
-    </library>
-    <library logical="Connector">
-      <uri>C:/Program Files/KiCad/5.99/share/kicad/library/Connector.kicad_sym</uri>
     </library>
     <library logical="Connector_Generic">
       <uri>C:/Program Files/KiCad/5.99/share/kicad/library/Connector_Generic.kicad_sym</uri>

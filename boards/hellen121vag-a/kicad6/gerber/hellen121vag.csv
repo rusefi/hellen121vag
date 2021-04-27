@@ -42,7 +42,7 @@
 "Conn_01x04","J7","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",""
 "Conn_01x06","J8","Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",""
 "Conn_01x04","J9","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",""
-"AudioJack3_SwitchTR","J10","hellen-one-common:Jack_3.5mm_PJ-3250-5A","C165947"
+"AudioJack_THR","J10","hellen-one-common:Jack_3.5mm_PJ-3250-5A","C165947"
 "Module-can-0.1","M1","hellen-one-can-0.1:can",""
 "Module-power5-0.2","M2","hellen-one-power5-0.1:power5",""
 "Module-mcu-0.1","M3","hellen-one-mcu-0.1:mcu",""
