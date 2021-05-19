@@ -1116,7 +1116,7 @@
       (net 8 "GND") (pintype "passive") (tstamp 88497f8e-b058-4276-a535-234a6198019a))
     (pad "2" smd roundrect (at 0.790001 0 270) (size 0.850001 0.850001) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.09999988235)
       (net 6 "+3V3") (pintype "passive") (tstamp 18a4069e-f8bf-452c-b7bb-482145b065a5))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603 cap.STEP"
+    (model ":hellen-one-models:0603 cap.STEP"
       (offset (xyz 0.000081 0.000078 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 0))
@@ -1143,7 +1143,7 @@
       (net 8 "GND") (pintype "passive") (tstamp fad0e164-935e-401e-b6ec-7d26d1240fdc))
     (pad "2" smd roundrect (at 0.790001 0 90) (size 0.850001 0.850001) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.09999988235)
       (net 9 "/NRESET") (pintype "passive") (tstamp 824b125c-88d4-4a74-bf22-8fe7163fd948))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603 cap.STEP"
+    (model ":hellen-one-models:0603 cap.STEP"
       (offset (xyz 0.000081 0.000078 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 0))
@@ -1196,7 +1196,7 @@
       (net 286 "Net-(G5-Pad14)") (pintype "passive") (tstamp 7a529c35-6a19-476e-8843-a287b8c456a3))
     (pad "15" thru_hole circle (at 10.16 5.08 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 282 "Net-(G5-Pad10)") (pintype "passive") (tstamp 52c17d7b-c161-432a-82ef-e49fe09c6921))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603 cap.STEP"
+    (model ":hellen-one-models:0603 cap.STEP"
       (offset (xyz 0.000081 0.000078 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 0))
@@ -2155,7 +2155,7 @@
       (net 4 "+12V") (pinfunction "A") (pintype "passive") (tstamp ec9e6fbd-ac45-4303-9d69-3a5184a96e94))
     (pad "2" smd roundrect (at -0.95 0) (size 1.3 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 84 "Net-(D5-Pad2)") (pinfunction "K") (pintype "passive") (tstamp cad6c24a-0ec9-4b0b-b98e-214940c42225))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/LED0805-YELLOW.STEP"
+    (model ":hellen-one-models:LED0805-YELLOW.STEP"
       (offset (xyz 0.000089 0.000071 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -0 -0 0))
@@ -2369,7 +2369,7 @@
       (net 263 "Net-(G2-Pad14)") (pintype "passive") (tstamp acb291f5-5342-49d7-8c7b-ad14bdf8d6cc))
     (pad "15" thru_hole circle (at 10.16 5.08 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 262 "Net-(G2-Pad10)") (pintype "passive") (tstamp 281dbfd6-3916-4984-9c3a-3847ef771590))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603 cap.STEP"
+    (model ":hellen-one-models:0603 cap.STEP"
       (offset (xyz 0.000081 0.000078 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 0))
@@ -2438,7 +2438,7 @@
       (net 281 "Net-(D3-Pad2)") (pintype "passive") (tstamp 0b2ad92d-5c52-448c-96b0-5dcb0ef74767))
     (pad "2" smd roundrect (at 0.8 0 180) (size 0.7 0.92) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 8 "GND") (pintype "passive") (tstamp 53cf93b8-e005-4b81-a8b1-c14aee2ba18d))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603 resistor.STEP"
+    (model ":hellen-one-models:0603 resistor.STEP"
       (offset (xyz 0 0.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 0))
@@ -2505,7 +2505,7 @@
       (net 8 "GND") (pintype "passive") (tstamp 5d2107a0-94f1-4032-b04e-46c729c14d8a))
     (pad "2" smd roundrect (at 0.790001 0 180) (size 0.850001 0.850001) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.09999988235)
       (net 181 "Net-(C5-Pad2)") (pintype "passive") (tstamp 411b93da-13aa-41c1-b37e-e7d691b4afa7))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603 cap.STEP"
+    (model ":hellen-one-models:0603 cap.STEP"
       (offset (xyz 0.000081 0.000078 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 0))
@@ -4734,6 +4734,11 @@
       (net 8 "GND") (pinfunction "SLUG@2") (pintype "power_in") (zone_connect 2) (tstamp 68a180fc-1112-4bfe-a007-e121d42b9590))
     (pad "SLUG3" smd rect (at 7.112 0) (size 2.032 5.08) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 8 "GND") (pinfunction "SLUG@3") (pintype "power_in") (zone_connect 2) (tstamp bdb0c45e-eee7-4ab9-bac8-0f369472c78d))
+    (model ":hellen-one-models:PowerSO20.STEP"
+      (offset (xyz -5.8 -7 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "hellen-one-common:R0603" (layer "F.Cu")
@@ -4757,7 +4762,7 @@
       (net 284 "Net-(D7-Pad2)") (pintype "passive") (tstamp 1539d96b-06aa-4525-82df-0c9e581a66c1))
     (pad "2" smd roundrect (at 0.8 0 180) (size 0.7 0.92) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 8 "GND") (pintype "passive") (tstamp a7a2276a-d22a-408c-967f-b9a9eced2ffa))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603 resistor.STEP"
+    (model ":hellen-one-models:0603 resistor.STEP"
       (offset (xyz 0 0.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 0))
@@ -4867,7 +4872,7 @@
       (net 20 "/IN_VIGN") (pinfunction "A") (pintype "passive") (tstamp 3b6afffc-194f-4843-896e-5de6f29177cf))
     (pad "2" smd roundrect (at -0.95 0) (size 1.3 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 281 "Net-(D3-Pad2)") (pinfunction "K") (pintype "passive") (tstamp 86f4df69-fa21-44c1-a597-de9bed089c1a))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/LED0805-YELLOW.STEP"
+    (model ":hellen-one-models:LED0805-YELLOW.STEP"
       (offset (xyz 0.000089 0.000071 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -0 -0 0))
@@ -4894,7 +4899,7 @@
       (net 8 "GND") (pintype "passive") (tstamp 90c4e65d-4a05-4b78-a482-09b2019fdd91))
     (pad "2" smd roundrect (at 0.790001 0 180) (size 0.850001 0.850001) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.09999988235)
       (net 1 "+5V") (pintype "passive") (tstamp 2fec2501-bd86-4d67-8245-3a85385d1afa))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603 cap.STEP"
+    (model ":hellen-one-models:0603 cap.STEP"
       (offset (xyz 0.000081 0.000078 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 0))
@@ -4927,7 +4932,7 @@
       (net 10 "/BOOT0") (pintype "passive") (tstamp 0f60720f-44d6-46e8-8210-fc4794425f65))
     (pad "2" smd roundrect (at 2.1 0 270) (size 0.800001 2.000001) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.099999875)
       (net 6 "+3V3") (pintype "passive") (tstamp 64e50ec4-de1d-4238-9697-205b279c867a))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/SKRKAHE020.STEP"
+    (model ":hellen-one-models:SKRKAHE020.STEP"
       (offset (xyz 0.000068 0.000077 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -0 -0 0))
@@ -5123,7 +5128,7 @@
       (net 233 "/ETB_EN") (pintype "passive") (tstamp c51f422f-e600-4693-b323-a9330f72e637))
     (pad "2" smd roundrect (at 0.8 0 270) (size 0.7 0.92) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 181 "Net-(C5-Pad2)") (pintype "passive") (tstamp 81bd35ae-911b-49f0-9ec9-0735b349b5d9))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603 resistor.STEP"
+    (model ":hellen-one-models:0603 resistor.STEP"
       (offset (xyz 0 0.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 0))
@@ -5348,7 +5353,7 @@
       (net 4 "+12V") (pinfunction "K") (pintype "passive") (tstamp 9767eee4-b2cc-40de-a248-bcb1fcb407ff))
     (pad "2" smd roundrect (at 1.1 0 90) (size 0.6 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 84 "Net-(D5-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 78782d35-6d8a-406d-b054-81192c17116b))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/SOD323F.STEP"
+    (model ":hellen-one-models:SOD323F.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 -180))
@@ -5416,7 +5421,7 @@
       (net 6 "+3V3") (pintype "passive") (tstamp 22cf8058-47a5-403e-8b43-b34c0e0bbecf))
     (pad "2" smd roundrect (at 0.8 0) (size 0.7 0.92) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 270 "Net-(M3-PadN19)") (pintype "passive") (tstamp a55bd5d3-8816-4928-bc4b-d989ac858ef8))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603 resistor.STEP"
+    (model ":hellen-one-models:0603 resistor.STEP"
       (offset (xyz 0 0.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 0))
@@ -5497,7 +5502,7 @@
       (net 20 "/IN_VIGN") (pinfunction "K") (pintype "passive") (tstamp 23c10855-f14b-49da-993c-fa38384d4820))
     (pad "2" smd roundrect (at 1.1 0 90) (size 0.6 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 281 "Net-(D3-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 8b53152c-9b9f-4434-8e99-be02a9381900))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/SOD323F.STEP"
+    (model ":hellen-one-models:SOD323F.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 -180))
@@ -5691,7 +5696,7 @@
       (net 47 "/VBAT") (pinfunction "K") (pintype "passive") (tstamp 231127d2-ea96-48cf-b501-ca831f425bf5))
     (pad "2" smd roundrect (at 1.1 0 270) (size 0.6 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 80 "Net-(BT1-Pad1)") (pinfunction "A") (pintype "passive") (tstamp 6e1254f1-1520-4e33-a7cd-33432736b222))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/SOD323F.STEP"
+    (model ":hellen-one-models:SOD323F.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 -180))
@@ -5759,7 +5764,7 @@
       (net 115 "/IN_CLT") (pintype "passive") (tstamp 26fdf62a-f29f-4747-8bc7-d64d391b86e3))
     (pad "2" smd roundrect (at 0.8 0 270) (size 0.7 0.92) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 45 "GNDA") (pintype "passive") (tstamp bfd36729-3cb1-425a-9b95-4d69bf1b0680))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603 resistor.STEP"
+    (model ":hellen-one-models:0603 resistor.STEP"
       (offset (xyz 0 0.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 0))
@@ -5787,7 +5792,7 @@
       (net 6 "+3V3") (pintype "passive") (tstamp 5e0151ce-3409-4a3d-9010-f949ebaba03a))
     (pad "2" smd roundrect (at 0.8 0 270) (size 0.7 0.92) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 269 "Net-(M3-PadN18)") (pintype "passive") (tstamp 938f32cd-5685-45f8-9cb5-e7c0734a3ab1))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603 resistor.STEP"
+    (model ":hellen-one-models:0603 resistor.STEP"
       (offset (xyz 0 0.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 0))
@@ -6018,7 +6023,7 @@
       (net 8 "GND") (pintype "passive") (tstamp a0d1f247-9ff1-4fd2-ad65-0d2319d2f9d8))
     (pad "15" thru_hole circle (at 10.16 5.08 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 8 "GND") (pintype "passive") (tstamp 895e0a17-bbf2-4d0a-8cf1-4e53559f29c3))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603 cap.STEP"
+    (model ":hellen-one-models:0603 cap.STEP"
       (offset (xyz 0.000081 0.000078 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 0))
@@ -6419,7 +6424,7 @@
       (net 83 "Net-(C3-Pad1)") (pintype "passive") (tstamp dba4f047-5765-4733-b40a-478d384ecf5d))
     (pad "2" smd roundrect (at 0.790001 0 180) (size 0.850001 0.850001) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.09999988235)
       (net 232 "+12V_RAW") (pintype "passive") (tstamp 424e0051-0af8-4b20-8ae4-ecf8a0e009a6))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603 cap.STEP"
+    (model ":hellen-one-models:0603 cap.STEP"
       (offset (xyz 0.000081 0.000078 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 0))
@@ -6446,7 +6451,7 @@
       (net 8 "GND") (pintype "passive") (tstamp ee346067-8ef1-4ec6-bc94-2281f91317f4))
     (pad "2" smd roundrect (at 0.790001 0) (size 0.850001 0.850001) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.09999988235)
       (net 232 "+12V_RAW") (pintype "passive") (tstamp 6eadf474-4eba-400e-8c30-09fb98a12b0c))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603 cap.STEP"
+    (model ":hellen-one-models:0603 cap.STEP"
       (offset (xyz 0.000081 0.000078 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 0))
@@ -6539,7 +6544,7 @@
       (net 245 "Net-(G1-Pad14)") (pintype "passive") (tstamp 090cbb8f-96c4-4afe-905b-9e4898ee087b))
     (pad "15" thru_hole circle (at 10.16 5.08 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 260 "Net-(G1-Pad10)") (pintype "passive") (tstamp 29f10855-a68d-41fc-ac84-9ad3130a7d36))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603 cap.STEP"
+    (model ":hellen-one-models:0603 cap.STEP"
       (offset (xyz 0.000081 0.000078 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 0))
@@ -6836,7 +6841,7 @@
       (net 283 "Net-(D6-Pad2)") (tstamp 1141a8eb-8383-4c5e-a27a-bf4b580e0204))
     (pad "2" smd roundrect (at 0.8 0 180) (size 0.7 0.92) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 8 "GND") (tstamp b082b669-6c1e-47bd-8c3e-c42afb4c7eb5))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603 resistor.STEP"
+    (model ":hellen-one-models:0603 resistor.STEP"
       (offset (xyz 0 0.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 0))
@@ -7151,7 +7156,7 @@
       (net 84 "Net-(D5-Pad2)") (pintype "passive") (tstamp aad3b0ac-750f-4086-99e3-499549ce2fc0))
     (pad "2" smd roundrect (at 0.8 0 180) (size 0.7 0.92) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 8 "GND") (pintype "passive") (tstamp 87fbcf8f-0669-4161-a79e-e21e68928066))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603 resistor.STEP"
+    (model ":hellen-one-models:0603 resistor.STEP"
       (offset (xyz 0 0.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 0))
@@ -7225,7 +7230,7 @@
       (net 9 "/NRESET") (pintype "passive") (tstamp bcea3dfa-9030-4a0f-9c21-7d40c88b71ae))
     (pad "2" smd roundrect (at 2.1 0 90) (size 0.800001 2.000001) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.099999875)
       (net 8 "GND") (pintype "passive") (tstamp e9bc6c3d-fd32-4609-aee5-63d353ad1653))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/SKRKAHE020.STEP"
+    (model ":hellen-one-models:SKRKAHE020.STEP"
       (offset (xyz 0.000068 0.000077 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -0 -0 0))
@@ -7301,7 +7306,7 @@
       (net 6 "+3V3") (pinfunction "A") (pintype "passive") (tstamp 4bec4a98-8631-46b1-ab36-31bd98590f4b))
     (pad "2" smd roundrect (at -0.95 0) (size 1.3 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 284 "Net-(D7-Pad2)") (pinfunction "K") (pintype "passive") (tstamp c9055fcb-908d-4f16-a913-4e4b241e1df8))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/LED0805-YELLOW.STEP"
+    (model ":hellen-one-models:LED0805-YELLOW.STEP"
       (offset (xyz 0.000089 0.000071 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -0 -0 0))
@@ -7400,7 +7405,7 @@
       (net 200 "Net-(D1-Pad1)") (pintype "passive") (tstamp 1fb17d18-a729-44cc-b6bd-682e78538384))
     (pad "2" smd roundrect (at 0.8 0) (size 0.7 0.92) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 135 "Net-(C4-Pad2)") (pintype "passive") (tstamp b82ce8cf-2c53-4c1d-8bc1-ce308d3bddd1))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603 resistor.STEP"
+    (model ":hellen-one-models:0603 resistor.STEP"
       (offset (xyz 0 0.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 0))
@@ -7480,7 +7485,7 @@
       (net 83 "Net-(C3-Pad1)") (pinfunction "K") (pintype "passive") (tstamp d98db0d7-030d-4cfa-b68e-2525eafd96fd))
     (pad "2" smd roundrect (at 1.1 0 270) (size 0.6 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 200 "Net-(D1-Pad1)") (pinfunction "A") (pintype "passive") (tstamp bc5d8de6-f731-42eb-873f-45bdbb1d5732))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/SOD323F.STEP"
+    (model ":hellen-one-models:SOD323F.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 -180))
@@ -7516,7 +7521,7 @@
       (net 1 "+5V") (pinfunction "A") (pintype "passive") (tstamp c3c24ab0-a979-4052-bf49-0630c95de264))
     (pad "2" smd roundrect (at -0.95 0) (size 1.3 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 283 "Net-(D6-Pad2)") (pinfunction "K") (pintype "passive") (tstamp 2366e684-5bf4-40bb-a767-3adfb8156e36))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/LED0805-YELLOW.STEP"
+    (model ":hellen-one-models:LED0805-YELLOW.STEP"
       (offset (xyz 0.000089 0.000071 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -0 -0 0))
@@ -7583,7 +7588,7 @@
       (net 297 "Net-(C17-Pad1)") (pintype "passive") (tstamp 0c72178d-00db-465b-b679-f5d9ee7eedc1))
     (pad "2" smd roundrect (at 0.790001 0 180) (size 0.850001 0.850001) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.09999988235)
       (net 296 "Net-(C17-Pad2)") (pintype "passive") (tstamp 2469af4c-7443-42bd-850f-f9a8ea7da2c1))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603 cap.STEP"
+    (model ":hellen-one-models:0603 cap.STEP"
       (offset (xyz 0.000081 0.000078 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 0))
@@ -7663,7 +7668,7 @@
       (net 200 "Net-(D1-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 7a1f7506-0e7f-489f-946f-dc3665faaac4))
     (pad "2" smd roundrect (at 1.1 0 180) (size 0.6 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 232 "+12V_RAW") (pinfunction "A") (pintype "passive") (tstamp f5f1d3c0-7e25-4381-a2dc-fd7a80c528a4))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/SOD323F.STEP"
+    (model ":hellen-one-models:SOD323F.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 -180))
@@ -7730,7 +7735,7 @@
       (net 180 "Net-(C4-Pad1)") (pintype "passive") (tstamp 9a52938e-1d74-40ff-9eb2-b6a18d9f1306))
     (pad "2" smd roundrect (at 0.790001 0 270) (size 0.850001 0.850001) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.09999988235)
       (net 135 "Net-(C4-Pad2)") (pintype "passive") (tstamp df7959ea-95ac-4925-9afa-f6e8713d9321))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603 cap.STEP"
+    (model ":hellen-one-models:0603 cap.STEP"
       (offset (xyz 0.000081 0.000078 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 0))
@@ -7757,7 +7762,7 @@
       (net 8 "GND") (pintype "passive") (tstamp 2196827b-ff63-40f8-97c7-c421ec9498de))
     (pad "2" smd roundrect (at 0.790001 0) (size 0.850001 0.850001) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.09999988235)
       (net 232 "+12V_RAW") (pintype "passive") (tstamp 1149b833-b5b7-4052-928b-fb76351cdc76))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603 cap.STEP"
+    (model ":hellen-one-models:0603 cap.STEP"
       (offset (xyz 0.000081 0.000078 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 0))
@@ -7813,7 +7818,7 @@
       (net 116 "/IN_IAT") (pintype "passive") (tstamp e61ea0ac-a35b-442f-976d-1b1f94ff16cf))
     (pad "2" smd roundrect (at 0.8 0 270) (size 0.7 0.92) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 45 "GNDA") (pintype "passive") (tstamp 74bdabe3-4b0e-4bda-96d0-b1c7d362ef58))
-    (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603 resistor.STEP"
+    (model ":hellen-one-models:0603 resistor.STEP"
       (offset (xyz 0 0.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 -0 0))
