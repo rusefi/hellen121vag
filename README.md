@@ -9,7 +9,3 @@ ME 7.5
 Requires pretty fresh nightly KiCad 5.99
 
 
-# Vehicle Specific Jumpers
-
-TODO:
-when do we remove/keep R2 R3 R8 R9
