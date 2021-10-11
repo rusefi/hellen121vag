@@ -15,7 +15,7 @@
   (lib (name "hellen-one-stlink-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/stlink/0.1")(options "")(descr "Hellen-One ST/Link Module"))
   (lib (name "hellen-one-common")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/kicad/footprints")(options "")(descr "Hellen-One common library"))
   (lib (name "hellen-one-wbo-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/wbo/0.1")(options "")(descr "Hellen-One WBO Module"))
-  (lib (name "hellen-one-wbo-0.2")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/wbo/0.2")(options "")(descr "Hellen-One WBO Module"))
+  (lib (name "hellen-one-wbo-0.3")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/wbo/0.3")(options "")(descr "Hellen-One WBO Module"))
   (lib (name "hellen-one-vr-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/vr/0.1")(options "")(descr "Hellen-One VR Module"))
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/footprints")(options "")(descr ""))
   (lib (name "rusefi_lib")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/rusefi_lib.pretty")(options "")(descr ""))
