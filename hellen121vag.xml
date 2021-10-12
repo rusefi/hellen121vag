@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Work\rusefi\github\hellen121vag\hellen121vag.kicad_sch</source>
-    <date>12/10/2021 01:16:59</date>
+    <date>12/10/2021 20:17:26</date>
     <tool>Eeschema (5.99.0-12439-g94954386e6)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -643,7 +643,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen121vag.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>fa70a991-52f2-41e0-a467-ed000e2a540f 8580f66c-9274-4062-98bc-c39af90659e7 6e1681a0-2780-43c6-bb9d-35ef7f12995a 235e621a-d8e8-481c-9963-e4ab0b1400f7</tstamps>
+      <tstamps>6e1681a0-2780-43c6-bb9d-35ef7f12995a fa70a991-52f2-41e0-a467-ed000e2a540f 8580f66c-9274-4062-98bc-c39af90659e7 235e621a-d8e8-481c-9963-e4ab0b1400f7</tstamps>
     </comp>
     <comp ref="M4">
       <value>Module-input-0.1</value>
@@ -652,7 +652,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen121vag.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>305634c5-b4eb-48eb-8518-b7343f0ee652 171c556b-429e-4554-b331-3a0f2e186320 5fdc99c6-904a-4654-ae44-e8f3a708a18c 020bbf55-f0ec-4f25-b986-257587769239</tstamps>
+      <tstamps>5fdc99c6-904a-4654-ae44-e8f3a708a18c 171c556b-429e-4554-b331-3a0f2e186320 305634c5-b4eb-48eb-8518-b7343f0ee652 020bbf55-f0ec-4f25-b986-257587769239</tstamps>
     </comp>
     <comp ref="M5">
       <value>Module-knock-0.1</value>
@@ -670,7 +670,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen121vag.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>aa524680-d82e-41ee-af9e-a17448cb6785 bc509e65-4922-48d3-a3e8-db3a1d266710 6393784b-5d4f-4f9a-a434-f9a4d074985e</tstamps>
+      <tstamps>bc509e65-4922-48d3-a3e8-db3a1d266710 aa524680-d82e-41ee-af9e-a17448cb6785 6393784b-5d4f-4f9a-a434-f9a4d074985e</tstamps>
     </comp>
     <comp ref="M7">
       <value>Module-ign8-0.1</value>

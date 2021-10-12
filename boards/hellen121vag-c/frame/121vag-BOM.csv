@@ -31,7 +31,7 @@ Comment,Designator,Footprint,LCSC Part #
 "B5819W","D12","D_SOD-123","C8598"
 "B5819W","D13","D_SOD-123","C8598"
 "B5819W","D14","D_SOD-123","C8598"
-"Fuse-Pad-Pad","F1","PAD-1206-PAD","C182446"
+"Fuse-Pad-Pad","F1","PAD-1206-PAD",""
 "Fuse-Pad-Pad","F2","PAD-1206-PAD","C182446"
 "PROTO_AREA","G1","PROTO_AREA",""
 "PROTO_AREA","G2","PROTO_AREA",""

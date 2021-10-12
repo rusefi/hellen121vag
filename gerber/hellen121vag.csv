@@ -31,7 +31,7 @@
 "B5819W","D12","Diode_SMD:D_SOD-123","C8598"
 "B5819W","D13","Diode_SMD:D_SOD-123","C8598"
 "B5819W","D14","Diode_SMD:D_SOD-123","C8598"
-"Fuse-Pad-Pad","F1","hellen-one-common:PAD-1206-PAD","C182446"
+"Fuse-Pad-Pad","F1","hellen-one-common:PAD-1206-PAD",""
 "Fuse-Pad-Pad","F2","hellen-one-common:PAD-1206-PAD","C182446"
 "PROTO_AREA","G1","hellen-one-common:PROTO_AREA",""
 "PROTO_AREA","G2","hellen-one-common:PROTO_AREA",""
