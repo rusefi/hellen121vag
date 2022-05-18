@@ -2,7 +2,7 @@
 
 if [ ! -f "hellen-one/readme.md" ]; then
     echo "No submodule? Trying to pull"
-    git submodule update --init
+    git submodule update --init --recursive
 fi
 
 cd hellen-one
