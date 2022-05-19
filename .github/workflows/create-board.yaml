@@ -1,0 +1,24 @@
+name: Check All
+
+on: [push, pull_request]
+
+jobs:
+  build-firmware:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          submodules: recursive
+
+      - name: 1. Build Docker
+        run: |
+          bash step1_build_hellen-one_docker.sh
+
+      - name: 2. Copy
+        run: |
+          bash step2_copy_with_docker.sh
+          
+#      - name: 3. Create Board
+#        run: |
+#          bash step3_create_board_with_docker.sh
