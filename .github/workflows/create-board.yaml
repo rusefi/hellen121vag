@@ -1,6 +1,6 @@
 name: Check All
 
-on: [push, pull_request]
+on: [ push, pull_request ]
 
 jobs:
   build-firmware:
@@ -13,12 +13,26 @@ jobs:
 
       - name: 1. Build Docker
         run: |
-          bash step1_build_hellen-one_docker.sh
+          bash hellen-one/bin/step1_build_hellen-one_docker.sh
 
       - name: 2. Copy
         run: |
-          bash step2_copy_with_docker.sh
-          
-#      - name: 3. Create Board
-#        run: |
-#          bash step3_create_board_with_docker.sh
+          bash hellen-one/bin/step2_copy_with_docker.sh
+
+      - name: 3. Create Board
+        run: |
+          bash hellen-one/bin/step3_create_board_with_docker.sh
+
+      - name: Commit fresh board files
+        env:
+          ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
+        run: |
+          bash hellen-one/bin/gha-commit.sh
+
+      - name: Push board files
+        if: ${{env.NOCOMMIT != 'true'}}
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ github.token }}
+          branch: ${{ steps.extract_branch.outputs.branch }}
+

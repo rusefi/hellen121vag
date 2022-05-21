@@ -1,0 +1,60 @@
+# remove the jumper connection from VCC_PP1 to +5V: we need +12v power supply for push-pull outputs.
+R309,
+
+# remove +5V pull-ups from SPI1, because we use it with +3.3v accelerometer
+R103,
+R105,
+
+# remove jumper resistor connecting BOOT1 with A22 input line, because we use STM32F4
+R131,
+
+
+# JLC stock adjustments
+# STM32
+U105,"STM32F429IGT6 ","LQFP176","C54328"
+
+# DC-DC Inductor
+L421,"MWSA0503S-100MT","SMD-5.2x5.4x2.8","C408412"
+L420,"LBC3225T2R2MR","1210","C223413"
+
+#power distribution
+U103,"AP2331W-7","SOT-23","C460346"
+U480,"AP2331W-7","SOT-23","C460346"
+
+# LMR14020->LMR14030 (more power, no problem)
+U420,"LMR14030","SOP8","C182078"
+
+#Vbat LDO
+U410,"LP2981-33DBVR","SOT-23-5","C129997"
+
+#INJ low-side
+Q305,"ZXMS6005SGTA","SOT-223","C174042"
+Q306,"ZXMS6005SGTA","SOT-223","C174042"
+Q307,"ZXMS6005SGTA","SOT-223","C174042"
+Q308,"ZXMS6005SGTA","SOT-223","C174042"
+Q309,"ZXMS6005SGTA","SOT-223","C174042"
+Q310,"ZXMS6005SGTA","SOT-223","C174042"
+Q311,"ZXMS6005SGTA","SOT-223","C174042"
+Q312,"ZXMS6005SGTA","SOT-223","C174042"
+
+#fuses
+F410,"nSMD050-24V","F1206","C70076"
+F300,"nSMD050-24V","F1206","C70076"
+
+#3.3 reference
+#U603,"REF3333AIDBZR","SOT-23","C130016"
+
+#IGN buf
+U460,"74LVC4245APW,118","TSSOP-24","C6091"
+
+#non-JLC components
+#WBO low-side
+Q600,
+#WBO STM32
+U602,
+
+#pressure sensor
+U2,
+
+#ETB driver
+U1,
