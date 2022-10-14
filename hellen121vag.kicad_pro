@@ -86,6 +86,7 @@
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -104,6 +105,7 @@
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
+        "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
         "track_width": "error",
@@ -163,7 +165,11 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|1930400|3924300|82278af9-2d63-4e63-a2c0-9fa4f51af936|cd7f26c9-a4de-4072-af41-d30c8361da8a",
+      "pin_to_pin|1930400|4051300|db93bd67-db5b-4729-afc0-0f346e70ccef|d33ed8ef-4e75-4a62-88a4-3808140d9cd0",
+      "pin_to_pin|977900|4464050|23f0f54b-8b5c-4e1d-8252-c1547e3e732d|1fb5f8a5-1f58-4e31-8151-9614b774a0f7"
+    ],
     "meta": {
       "version": 0
     },
@@ -353,13 +359,13 @@
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
       "multiple_net_names": "warning",
-      "net_not_bus_member": "warning",
+      "net_not_bus_member": "ignore",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
       "unannotated": "error",
       "unit_value_mismatch": "error",
