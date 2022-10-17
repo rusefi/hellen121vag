@@ -58,3 +58,5 @@ U2,
 
 #ETB driver
 U1,
+
+#include hellen-one/board_id/generated/board_id_vag121-d.csv
