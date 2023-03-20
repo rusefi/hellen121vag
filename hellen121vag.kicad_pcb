@@ -1,7 +1,7 @@
 (kicad_pcb (version 20211014) (generator pcbnew)
 
   (general
-    (thickness 4.69)
+    (thickness 1.6)
   )
 
   (paper "User" 431.8 379.4)
@@ -41,11 +41,11 @@
       (layer "F.Paste" (type "Top Solder Paste"))
       (layer "F.Mask" (type "Top Solder Mask") (color "Green") (thickness 0.01))
       (layer "F.Cu" (type "copper") (thickness 0.035))
-      (layer "dielectric 1" (type "core") (thickness 1.51) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
-      (layer "In1.Cu" (type "copper") (thickness 0.035))
-      (layer "dielectric 2" (type "prepreg") (thickness 1.51) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
-      (layer "In2.Cu" (type "copper") (thickness 0.035))
-      (layer "dielectric 3" (type "core") (thickness 1.51) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "dielectric 1" (type "core") (thickness 0.2) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "In1.Cu" (type "copper") (thickness 0.0175))
+      (layer "dielectric 2" (type "prepreg") (thickness 1.075) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "In2.Cu" (type "copper") (thickness 0.0175))
+      (layer "dielectric 3" (type "core") (thickness 0.2) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
       (layer "B.Cu" (type "copper") (thickness 0.035))
       (layer "B.Mask" (type "Bottom Solder Mask") (color "Green") (thickness 0.01))
       (layer "B.Paste" (type "Bottom Solder Paste"))
@@ -655,7 +655,7 @@
       (net 81 "/OUT_VVT2_B2") (pinfunction "120") (pintype "passive") (tstamp e8f5cd43-5a34-4df5-beb6-491bf05ae5f8))
     (pad "121" thru_hole circle locked (at 123.95 58.86 180) (size 2.6 2.6) (drill 2.2) (layers *.Cu *.Mask "F.SilkS")
       (net 14 "Net-(F2-Pad1)") (pinfunction "121") (pintype "passive") (tstamp 992bd24f-bbca-4fd7-8011-94a23e396848))
-    (model "footprints/TE_368255-2.wrl"
+    (model "footprints/TE_368255-2.wrl" hide
       (offset (xyz -4.5 -56 -5))
       (scale (xyz 10 10 10))
       (rotate (xyz -90 0 0))
