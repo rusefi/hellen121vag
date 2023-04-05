@@ -47,6 +47,14 @@ F300,"nSMD050-24V","F1206","C70076"
 #IGN buf
 U460,"74LVC4245APW,118","TSSOP-24","C6091"
 
+#unused
+J450,
+R450,
+C450,
+C451,
+U1001,
+C1002,
+
 #non-JLC components
 #WBO low-side
 Q600,
