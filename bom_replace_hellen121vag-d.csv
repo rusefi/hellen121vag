@@ -47,7 +47,7 @@ F300,"nSMD050-24V","F1206","C70076"
 #IGN buf
 U460,"74LVC4245APW,118","TSSOP-24","C6091"
 
-#without the accelrometer and SD card
+#without the accelerometer and SD card
 U1001,
 J450,
 
