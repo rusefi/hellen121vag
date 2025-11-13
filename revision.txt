@@ -1,4 +1,4 @@
-# make sure to increment revision BEFORE any changes to content
+# make sure to increment revision BEFORE any changes to contentT
 
 BOARD_PREFIX=hellen
 BOARD_SUFFIX=121vag
